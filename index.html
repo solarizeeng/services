@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solarize Engenharia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            background: linear-gradient(#e85c5c, #F88137);
+            font-family: "Montserrat", sans-serif;
+        }
+        .containe{
+            height: 90vh;
+           
+        }
+        .circle{
+            width: 75px;
+            height: 75px;
+            border-radius: 100px;
+            background-color: #ffd5bb;
+            border: 2px inset rgb(52, 52, 52);
+            margin-top:100px;
+        }
+        
+        .box{
+            width: 100%;
+            margin-top: 55px;
+        }
+        .button{
+            display: block;
+            margin-top: 25px;
+            width: 85%;
+            line-height: 3;
+            background-color: white;
+            border-style: none;
+            box-shadow: 3px 3px 3px rgb(43, 43, 43);
+            color: black;
+        }
+        h3{
+            font-weight: bold;
+            color: #ffffff;
+        }
+        p{
+            color: #ffffff;
+            font-size: 0.7em;
+        }
+        .button:hover{
+            font-weight: bold;
+            background-color: #e85c5c;
+            color: white;
+            border: 1px solid white;
+        }
+        footer{
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+
+        }
+        .img{
+            float: right;
+            width: 40px;
+            margin-right: 35px;
+            margin-bottom: 35px;
+            animation: moveLeftRight 2s ease-in-out infinite alternate;
+        }
+        @keyframes moveLeftRight {
+            0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(15px);
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="containe">
+        <center>
+        <div class="circle"></div>
+        <h3>@solarize.eng</h3>
+        <p>Que tipo de ajuda você precisa? Selecione abaixo:</p>
+        <div class="box">
+            <a href="https://forms.gle/jwMrn2fesmeEYZpm7" class="button" target="_blank">Orçamento de Conexão GD</a>
+            <a href="https://forms.gle/JtQk4ec6U2aqm8rq6" class="button" target="_blank">Vistoria/ Conexão GD</a>
+            <a href="https://forms.gle/hNazmMGP2r6knuHD6" class="button" target="_blank">Inclusão de Autoconsumo Remoto</a>
+            <a href="https://forms.gle/yWx4zwgvt526usRMA" class="button" target="_blank">Análise Técnica</a>
+        </div>
+       </center>
+       <footer>
+           <a href="https://wa.link/hr8cy4" target="_blank" class="whats">
+               <img src="./assets/whatsapp.png" alt="" class="img">
+           </a>
+       </footer>
+    </div>
+</body>
+</html>
